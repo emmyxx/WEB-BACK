@@ -12,7 +12,7 @@ const notFoundErrorHandler = require('./middlewares/notFoundErrorHandler');
 const genericErrorHandler = require('./middlewares/genericErrorHandler');
 const authenticate = require('./middlewares/authenticate');
 
-const app = express();
+const    app = express();
 
 app.use(cors(
 //     {
